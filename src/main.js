@@ -6,6 +6,9 @@ import 'utils/rem';
 import 'styles/reset';
 import 'styles/base';
 import './registerServiceWorker';
+import { Lazyload } from 'vant';
+
+Vue.use(Lazyload);
 
 Vue.config.productionTip = false;
 
