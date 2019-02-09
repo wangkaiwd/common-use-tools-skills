@@ -32,6 +32,7 @@ module.exports = {
       .set('filters', resolve('filters'))
       .set('mixins', resolve('mixins'))
       .set('store', resolve('store'))
+      .set('layouts', resolve('layouts'))
       .end()
       // 扩展名省略
       .extensions

@@ -9,6 +9,11 @@ export default new Router({
       path: '/',
       name: 'home', // 命名路由
       component: getComponent('home')
+    },
+    {
+      path: '/category',
+      name: 'category',
+      component: getComponent('category')
     }
   ]
 });
