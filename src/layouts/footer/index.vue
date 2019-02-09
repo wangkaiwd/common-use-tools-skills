@@ -1,5 +1,5 @@
 <template>
-  <div class="mall-header">
+  <div class="mall-footer">
     <van-tabbar v-model="active">
       <van-tabbar-item
         v-for="tab in tabConfig"
@@ -25,6 +25,11 @@
       }
     },
     name: 'MallFooter',
+    data () {
+      return {
+        active: 0
+      };
+    },
     components: {
       [Tabbar.name]: Tabbar,
       [TabbarItem.name]: TabbarItem
@@ -33,8 +38,7 @@
 </script>
 
 <style scoped lang="scss">
-  .mall-header {
-    height: .8rem;
-    background-color: $pink;
+  .mall-footer {
+
   }
 </style>

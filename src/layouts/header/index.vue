@@ -7,7 +7,7 @@
         name="arrow-left"
       >
       </van-icon>
-      <a class="back" href="javascript:;" @click="onLeftClick">返回</a>
+      <a class="back" href="javascript:;" @click="onLeftClick">{{leftText}}</a>
     </div>
     <div class="center-title">{{title}}</div>
     <div class="right-icon">
