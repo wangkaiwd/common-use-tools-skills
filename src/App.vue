@@ -17,10 +17,10 @@
 </template>
 <script>
   const tabConfig = [
-    { key: 0, icon: 'shop-collect-o', text: '首页', },
-    { key: 1, icon: 'orders-o', text: '列表页' },
-    { key: 2, icon: 'cart-o', text: '购物车页' },
-    { key: 3, icon: 'vip-card-o', text: '会员中心' }
+    { key: 0, icon: 'shop-collect-o', text: '首页', to: '/home' },
+    { key: 1, icon: 'orders-o', text: '列表页', to: '/goodsDetail' },
+    { key: 2, icon: 'cart-o', text: '购物车页', to: '/shopCart' },
+    { key: 3, icon: 'vip-card-o', text: '会员中心', to: '/register' }
   ];
   import MallFooter from 'layouts/footer';
   import MallHeader from 'layouts/header';
