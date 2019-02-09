@@ -107,7 +107,10 @@
     }
 
     .swipe-img {
-      height: 4.8rem;
+      height: 3.36rem;
+      width: 100%;
+      /*可以不通过背景图的形式来进行图片的等比缩放*/
+      object-fit: cover;
     }
   }
 
