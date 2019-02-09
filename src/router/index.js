@@ -7,6 +7,10 @@ export default new Router({
   routes: [
     {
       path: '/',
+      redirect: 'home'
+    },
+    {
+      path: '/home',
       name: 'home', // 命名路由
       component: getComponent('home')
     },
