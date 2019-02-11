@@ -27,6 +27,50 @@
         </van-swipe-item>
       </van-swipe>
     </div>
+    <div class="shop-nav">
+      <ul>
+        <li>
+          <img src="~assets/images/freshFruit.jpg" alt="">
+          <p>新鲜水果</p>
+        </li>
+        <li>
+          <img src="~assets/images/freshFruit.jpg" alt="">
+          <p>新鲜水果</p>
+        </li>
+        <li>
+          <img src="~assets/images/freshFruit.jpg" alt="">
+          <p>新鲜水果</p>
+        </li>
+        <li>
+          <img src="~assets/images/freshFruit.jpg" alt="">
+          <p>新鲜水果</p>
+        </li>
+        <li>
+          <img src="~assets/images/freshFruit.jpg" alt="">
+          <p>新鲜水果</p>
+        </li>
+        <li>
+          <img src="~assets/images/freshFruit.jpg" alt="">
+          <p>新鲜水果</p>
+        </li>
+        <li>
+          <img src="~assets/images/freshFruit.jpg" alt="">
+          <p>新鲜水果</p>
+        </li>
+        <li>
+          <img src="~assets/images/freshFruit.jpg" alt="">
+          <p>新鲜水果</p>
+        </li>
+        <li>
+          <img src="~assets/images/freshFruit.jpg" alt="">
+          <p>新鲜水果</p>
+        </li>
+        <li>
+          <img src="~assets/images/freshFruit.jpg" alt="">
+          <p>新鲜水果</p>
+        </li>
+      </ul>
+    </div>
   </div>
 </template>
 
@@ -77,40 +121,55 @@
       justify-content: center;
       align-items: center;
     }
-
     .van-row {
       height: 100%;
     }
-
     .van-search {
       padding: 0;
       border-radius: $border-radius-sm;
     }
-
     .header {
       height: .8rem;
       background-color: $pink;
     }
-
     .search-form {
       width: 100%;
     }
-
     .location-icon {
       font-size: 24px;
       color: $white;
     }
-
     .search-button {
       max-height: .4rem;
       line-height: .4rem;
     }
-
     .swipe-img {
       height: 3.36rem;
       width: 100%;
       /*可以不通过背景图的形式来进行图片的等比缩放*/
       object-fit: cover;
+    }
+    .shop-nav {
+      padding: 0.08rem 0.186rem 0;
+      ul {
+        display: flex;
+        font-size: $font-sm;
+        overflow-x: auto;
+        img {
+          width: 1.28rem;
+          height: 1.28rem;
+        }
+        p {
+          padding-top: 0.08rem;
+          text-align: center;
+        }
+        li {
+          flex-shrink: 0;
+          &:not(:first-child) {
+            margin-left: 0.186rem;
+          }
+        }
+      }
     }
   }
 
