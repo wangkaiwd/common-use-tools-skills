@@ -27,7 +27,7 @@
         </van-swipe-item>
       </van-swipe>
     </div>
-    <div class="shop-nav">
+    <div class="shop-nav space-mt">
       <ul>
         <li>
           <img src="~assets/images/freshFruit.jpg" alt="">
@@ -70,6 +70,13 @@
           <p>新鲜水果</p>
         </li>
       </ul>
+    </div>
+    <div class="ad space-mt">
+      <!--<img src="" alt="">-->
+      <div class="img">
+        内测期间，仅针对公司内部配送
+      </div>
+      <van-icon class="gift" name="gift"></van-icon>
     </div>
   </div>
 </template>
@@ -150,10 +157,10 @@
       object-fit: cover;
     }
     .shop-nav {
-      padding: 0.08rem 0.186rem 0;
+      padding: 0 0.186rem;
+      font-size: $font-sm;
       ul {
         display: flex;
-        font-size: $font-sm;
         overflow-x: auto;
         img {
           width: 1.28rem;
@@ -169,6 +176,23 @@
             margin-left: 0.186rem;
           }
         }
+      }
+    }
+    .ad {
+      padding: 0 0.186rem;
+      display: flex;
+      .img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 6.32rem;
+        height: 0.6rem;
+        background-color: $pink;
+      }
+      .gift {
+        font-size: 30px;
+        color: $pink;
+        margin-left: auto;
       }
     }
   }
