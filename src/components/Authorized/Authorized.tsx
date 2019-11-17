@@ -19,13 +19,7 @@ type IAuthorizedType = React.FunctionComponent<AuthorizedProps> & {
 const Authorized: React.FunctionComponent<AuthorizedProps> = ({
   children,
   authority,
-  noMatch = (
-    <Result
-      status="403"
-      title="403"
-      subTitle="Sorry, you are not authorized to access this page."
-    />
-  ),
+  noMatch = <Result status="403" title="403" subTitle="对不起, 你没有权限访问这个页面." />,
 }) => {
   const childrenRender: React.ReactNode = typeof children === 'undefined' ? null : children;
   const dom = check(authority, childrenRender, noMatch);

@@ -54,7 +54,7 @@ export default {
   menu: {
     locale: false,
   },
-  title: 'Ant Design Pro',
+  title: 'Tai chi',
   pwa: false,
   iconfontUrl: '',
 } as DefaultSettings;
