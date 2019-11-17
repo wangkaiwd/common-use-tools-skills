@@ -4,7 +4,6 @@ import { connect } from 'dva';
 import { ConnectProps, ConnectState } from '@/models/connect';
 import Avatar from './AvatarDropdown';
 import HeaderSearch from '../HeaderSearch';
-import SelectLang from '../SelectLang';
 import styles from './index.less';
 
 export type SiderTheme = 'light' | 'dark';
@@ -26,7 +25,7 @@ const GlobalHeaderRight: React.SFC<GlobalHeaderRightProps> = props => {
       <HeaderSearch
         className={`${styles.action} ${styles.search}`}
         placeholder="站内搜索"
-        defaultValue="umi ui"
+        defaultValue="Hello Github"
         dataSource={['搜索提示一', '搜索提示二', '搜索提示三']}
         onSearch={value => {
           console.log('input', value);
@@ -46,7 +45,6 @@ const GlobalHeaderRight: React.SFC<GlobalHeaderRightProps> = props => {
         </a>
       </Tooltip>
       <Avatar />
-      <SelectLang className={styles.action} />
     </div>
   );
 };
