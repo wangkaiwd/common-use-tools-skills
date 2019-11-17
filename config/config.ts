@@ -22,11 +22,11 @@ const plugins: IPlugin[] = [
       },
       pwa: pwa
         ? {
-          workboxPluginMode: 'InjectManifest',
-          workboxOptions: {
-            importWorkboxFrom: 'local',
-          },
-        }
+            workboxPluginMode: 'InjectManifest',
+            workboxOptions: {
+              importWorkboxFrom: 'local',
+            },
+          }
         : false,
       // default close dll, because issue https://github.com/ant-design/ant-design-pro/issues/4665
       // dll features https://webpack.js.org/plugins/dll-plugin/
@@ -62,15 +62,9 @@ export default {
   // umi routes: https://umijs.org/zh/guide/router.html
   routes: [
     {
-      path: '/user',
-      component: '../layouts/UserLayout',
-      routes: [
-        {
-          name: 'login',
-          path: '/user/login',
-          component: './user/login',
-        },
-      ],
+      name: 'login',
+      path: '/login',
+      component: './user/login',
     },
     {
       path: '/',
@@ -167,4 +161,3 @@ export default {
   },
   */
 } as IConfig;
-

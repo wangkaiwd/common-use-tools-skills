@@ -5,7 +5,7 @@ import { stringify } from 'querystring';
 
 import { fakeAccountLogin, getFakeCaptcha } from '@/services/login';
 import { setAuthority } from '@/utils/authority';
-import { getPageQuery } from '@/utils/utils';
+import { getPageQuery } from '@/utils/helper';
 
 export interface StateType {
   status?: 'ok' | 'error';

@@ -3,7 +3,11 @@
  * You can view component api by:
  * https://github.com/ant-design/ant-design-pro-layout
  */
-import ProLayout, { BasicLayoutProps as ProLayoutProps, MenuDataItem, Settings } from '@ant-design/pro-layout';
+import ProLayout, {
+  BasicLayoutProps as ProLayoutProps,
+  MenuDataItem,
+  Settings,
+} from '@ant-design/pro-layout';
 import React, { useEffect } from 'react';
 import Link from 'umi/link';
 import { Dispatch } from 'redux';
@@ -12,8 +16,8 @@ import { Button, Result } from 'antd';
 import Authorized from '@/utils/Authorized';
 import RightContent from '@/components/GlobalHeader/RightContent';
 import { ConnectState } from '@/models/connect';
-import { getAuthorityFromRouter } from '@/utils/utils';
-import logo from '../assets/logo.svg';
+import { getAuthorityFromRouter } from '@/utils/helper';
+import logo from '../assets/svgs/logo.svg';
 
 const noMatch = (
   <Result
@@ -52,21 +56,18 @@ const menuDataRender = (menuList: MenuDataItem[]): MenuDataItem[] =>
     return Authorized.check(item.authority, localItem, null) as MenuDataItem;
   });
 
-const footerRender: BasicLayoutProps['footerRender'] = () => {
-
-  return (
-    <>
-      <div
-        style={{
-          padding: '0px 24px 24px',
-          textAlign: 'center',
-        }}
-      >
-        I am footer
-      </div>
-    </>
-  );
-};
+const footerRender: BasicLayoutProps['footerRender'] = () => (
+  <>
+    <div
+      style={{
+        padding: '0px 24px 24px',
+        textAlign: 'center',
+      }}
+    >
+      I am footer
+    </div>
+  </>
+);
 
 const BasicLayout: React.FC<BasicLayoutProps> = props => {
   const {
