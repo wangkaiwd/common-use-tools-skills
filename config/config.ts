@@ -15,11 +15,11 @@ const plugins: IPlugin[] = [
         hmr: true,
       },
       locale: false,
-      // dynamicImport: {
-      //   loadingComponent: './components/PageLoading/index',
-      //   webpackChunkName: true,
-      //   level: 3,
-      // },
+      dynamicImport: {
+        loadingComponent: './components/PageLoading/index',
+        webpackChunkName: true,
+        level: 3,
+      },
       pwa: pwa
         ? {
           workboxPluginMode: 'InjectManifest',
@@ -30,10 +30,10 @@ const plugins: IPlugin[] = [
         : false,
       // default close dll, because issue https://github.com/ant-design/ant-design-pro/issues/4665
       // dll features https://webpack.js.org/plugins/dll-plugin/
-      // dll: {
-      //   include: ['dva', 'dva/router', 'dva/saga', 'dva/fetch'],
-      //   exclude: ['@babel/runtime', 'netlify-lambda'],
-      // },
+      dll: {
+        include: ['dva', 'dva/router', 'dva/saga', 'dva/fetch'],
+        exclude: ['@babel/runtime', 'netlify-lambda'],
+      },
     },
   ],
   [
@@ -96,7 +96,7 @@ export default {
               name: 'admin',
               icon: 'crown',
               component: './Admin',
-              authority: ['admin'],
+              // authority: ['admin'],
             },
             {
               component: './404',
