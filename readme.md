@@ -1,27 +1,42 @@
-## 9大`WebStorm`技巧，让你效率提升，不再加班！
+## 9大`WebStorm`技巧，让你效率翻倍，不再加班！
 
 在日常开发中，我们接触最多的莫过于代码编辑器。在各种编辑器中，我最喜欢的是`WebStorm`，它极大的提升了我的日常开发效率和代码质量。
 
 工欲善其事必先利其器，这里我将我自己知道的`WebStorm`技巧分享出来，希望能让同样喜欢`WebStorm`的小伙伴效率翻倍、告别加班。
 
-### 1. 必须掌握的快捷键
+### 基本入门配置
+1. 禁用自动保存(可选),并添加未保存标签的样式
+    ![](https://raw.githubusercontent.com/wangkaiwd/drawing-bed/master/tools-skill-webstorm-don't-auto-save.png)
+    ![](https://raw.githubusercontent.com/wangkaiwd/drawing-bed/master/tools-skills-webstorm-mark-modified-asterisk.png)
+3. 关闭安全保存
+   ![](https://raw.githubusercontent.com/wangkaiwd/drawing-bed/master/tools-skill-webstorm-safe-write-close.png)
+   这里有一则`stackoverflow`的相关讨论：[Webpack watch not working on Webstorm on Windows?
+](https://stackoverflow.com/a/34225091)
+4. 设置编辑器字体（这是笔者喜欢的配置，大家可以参考）
+   ![](https://raw.githubusercontent.com/wangkaiwd/drawing-bed/master/webstorm-skill-font.png)
+   主题使用默认的`Darcula`,可以在`preferences/Editor/Color Scheme`下进行设置
+   
+   附一张截图代码截图：
+   ![](https://raw.githubusercontent.com/wangkaiwd/drawing-bed/master/tools-skills-webstorm-display.png)
 
-### 2. 快捷键的学习方法
+### 必须掌握的快捷键
 
-### 3. 识别`webpack`配置
+### 快捷键的学习方法
 
-### 4. 设置代码风格
+### 识别`webpack`配置
 
-### 5. 自动导入(`import`)
+### 设置代码风格
 
-### 6. 代码重构
+### 自动导入(`import`)
 
-### 7. 请求测试
+### 代码重构
 
-### 8. 草稿文件
+### 请求测试
 
-### 9. 设置背景图片
+### 草稿文件
 
-### 10. 图片预览
+### 设置背景图片
+
+### 图片预览
 
 
