@@ -20,6 +20,12 @@
    ![](https://raw.githubusercontent.com/wangkaiwd/drawing-bed/master/tools-skills-webstorm-display.png)
 
 ### 必须掌握的快捷键
+#### Double ⇧
+双击`shift`是`WebStorm`中的最强大的一个快捷键，没有之一。
+
+通过双击`shift`,可以找到你项目中任何与`WebStorm`相关的
+
+#### ⌥⏎
 
 ### 快捷键的学习方法
 
