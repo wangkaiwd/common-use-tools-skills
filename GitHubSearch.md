@@ -1,7 +1,7 @@
 ## `github`搜索语法作弊表
 ### [搜索仓库](https://help.github.com/en/github/searching-for-information-on-github/searching-for-repositories#search-by-repository-name-description-or-contents-of-the-readme-file)
 
-默认会在仓库名和仓库描述中进行搜索
+**默认会在仓库名和仓库描述中进行搜索**
 
 修饰符(qualifier) | 例子(Example)
 --- | --- 
@@ -21,3 +21,20 @@ in:name,description,readme followers:>=10000 stars:>=10000 pushed:>=2019-04-20 r
 
 搜索结果：
 ![](https://raw.githubusercontent.com/wangkaiwd/drawing-bed/master/tools-skills-github-search-respository.png)
+
+### 搜索`issue`
+
+**默认会在`issue`的标题(`title`)、正文(`body`)以及评论(`comments`)中进行搜索**
+
+修饰符(qualifier) | 例子(Example)
+--- | --- 
+`in:title` |  `ie in:name` `issue`标题中含有`ie`
+`in:body` |  `ie in:name` `issue`正文中含有`ie`
+`in:comments` |  `ie in:name` `issue`评论中含有`ie`
+
+综合搜索：由于默认的搜索条件过于广泛，我们需要将搜索范围缩小到标题
+```text
+in:title ie 兼容
+```
+搜索结果展示： 
+![](https://raw.githubusercontent.com/wangkaiwd/drawing-bed/master/tools-skill-github-issue-search.png)
