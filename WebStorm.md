@@ -36,8 +36,42 @@
 它可以帮我们解决高亮错误或者警告，也可以帮我们提升或改进代码结构。这也是`WebStorm`中一个极其重要的快捷键，基本在任何时候都会用到它。有关它的用法我们会在之后详细介绍。
 
 ### 快捷键的学习方法
+这里先介绍一下笔者常用的快捷键，大家可以进行参考：
 
 ### 识别`webpack`配置
+在日常开发中，我们可能会苦恼于下面的路径并不能很好的被编辑器识别跳转以及进行代码补全：
+```js
+import someThing form '@/path/to/someThing'
+```
+在`WebStorm`中，我们可以通过识别`webpack`的配置文件来支持绝对路径的跳转： 
+![](https://raw.githubusercontent.com/wangkaiwd/drawing-bed/master/tools-skills-webstorm-webpack-config.png)
+
+不过在现在流行的脚手架中，一般都会隐藏`webpack`配置文件，这种情况下，我们可以创建一个假的`webpack`配置文件来让`WebStorm`识别，从而支持路径跳转：
+```js
+const path = require('path');
+const absPath = dir => path.resolve(__dirname, `./src/${dir}`);
+
+// 该文件只是为了让WebStorm识别别名以及扩展名，并无实际用途
+module.exports = {
+  resolve: {
+    alias: {
+      router: absPath('router'),
+      layout: absPath('layout'),
+      styles: absPath('assets/styles'),
+      views: absPath('views'),
+      components: absPath('components'),
+      mock: absPath('mock'),
+      helper: absPath('helper'),
+    },
+    extensions: ['.js', '.jsx', '.json', '.scss']
+  }
+};
+```
+
+在`vue`项目中，我们可以在如下目录中找到对应的`webpack`配置文件：
+![](https://raw.githubusercontent.com/wangkaiwd/drawing-bed/master/tools-skills-webstorm-webpack-config-vue.png)
+
+配置完成后，小伙伴们就可在项目中完美的实现代码跳转以及路径补全提示了。
 
 ### 设置代码风格
 
