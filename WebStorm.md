@@ -18,7 +18,11 @@
    
    附一张截图代码截图：
    ![](https://raw.githubusercontent.com/wangkaiwd/drawing-bed/master/tools-skills-webstorm-display.png)
-
+5. 在`css`缩写中开启模糊搜索
+   ![](https://raw.githubusercontent.com/wangkaiwd/drawing-bed/master/tools-skill-webstorm-css-abbreviation.png)
+   开启之后可以这样写`css`:
+   * `o:h`:overflow:hidden
+   * `c:p`:cursor:pointer
 ### 必须掌握的快捷键
 #### Double ⇧ : Search Everywhere
 双击`shift`是`WebStorm`中的最强大的一个快捷键，没有之一。
