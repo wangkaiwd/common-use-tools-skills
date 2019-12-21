@@ -20,10 +20,11 @@
    ![](https://raw.githubusercontent.com/wangkaiwd/drawing-bed/master/tools-skills-webstorm-display.png)
 
 ### 必须掌握的快捷键
-#### Double ⇧
+#### Double ⇧ : Search Everywhere
 双击`shift`是`WebStorm`中的最强大的一个快捷键，没有之一。
 
-通过双击`shift`,可以找到你项目中任何与`WebStorm`相关的
+通过双击`shift`,可以搜索你项目中任何与`WebStorm`相关的内容，如打开文件、执行操作或者搜索文件。
+![](blob:https://www.jetbrains.com/e8db6b83-847b-4856-9e56-364e29caf34b)
 
 #### ⌥⏎
 
