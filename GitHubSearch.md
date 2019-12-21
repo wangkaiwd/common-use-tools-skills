@@ -1,7 +1,14 @@
-## `github`搜索语法作弊表
+## `github`搜索作弊表
+
+可能你曾因为自己总是无法在`github`中找到想要的资源而气馁，也因为在开发过程中碰到一些问题而无法找到问题而烦躁。其实，如果你认真寻找的话，答案就在`github`中。
+
+笔者在这里根据`github`的官方帮助整理了一些常用的搜索技巧，想看原文的同学可以点这里：[Searching for information on GitHub](https://help.github.com/en/github/searching-for-information-on-github)。希望大家可以在阅读之后能更快的找到自己想要的内容，提升工作和学习效率。
+
+> 原文涉及到的搜索内容比较多，笔者这里只是整理了一些个人在工作中常用的内容
+
 ### [搜索仓库](https://help.github.com/en/github/searching-for-information-on-github/searching-for-repositories#search-by-repository-name-description-or-contents-of-the-readme-file)
 
-**默认会在仓库名和仓库描述中进行搜索**
+**`github`默认会在仓库名和仓库描述中进行搜索**
 
 修饰符(qualifier) | 例子(Example)
 --- | --- 
@@ -22,9 +29,9 @@ in:name,description,readme followers:>=10000 stars:>=10000 pushed:>=2019-04-20 r
 搜索结果：
 ![](https://raw.githubusercontent.com/wangkaiwd/drawing-bed/master/tools-skills-github-search-respository.png)
 
-### 搜索`issue`
+### [搜索`issue`](https://help.github.com/en/github/searching-for-information-on-github/searching-issues-and-pull-requests#search-only-issues-or-pull-requests)
 
-**默认会在`issue`的标题(`title`)、正文(`body`)以及评论(`comments`)中进行搜索**
+**`github`默认会在`issue`的标题(`title`)、正文(`body`)以及评论(`comments`)中进行搜索**
 
 修饰符(qualifier) | 例子(Example)
 --- | --- 
@@ -38,3 +45,11 @@ in:title ie 兼容
 ```
 搜索结果展示： 
 ![](https://raw.githubusercontent.com/wangkaiwd/drawing-bed/master/tools-skill-github-issue-search.png)
+
+### 结语
+
+大家可以结合相应的语法进行实验，实际体验一下不同条件下的搜索结果。
+
+原文在这里：[`github`搜索作弊表](https://github.com/wangkaiwd/WebStorm-Skills/blob/master/GitHubSearch.md)
+
+之后笔者还会继续整理一些`Google`搜索技巧以及`WebStorm`使用技巧，如果内容对你有帮助的，希望能`star`给予鼓励，让社区中乐于分享的开发者创作出更好的作品。
