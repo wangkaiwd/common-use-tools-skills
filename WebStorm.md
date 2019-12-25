@@ -44,8 +44,11 @@
 当然我们也可以通过Double ⇧来搜索对应的操作,可以很方便查看功能及其对应的键位：
  ![](https://raw.githubusercontent.com/wangkaiwd/drawing-bed/master/tools-webstorm-find-actions.png)
 
-这里笔者整理了一下自己常用的快捷键，有需要的小伙伴可以作为参考： 
-* 
+以下的快捷键键位可以进行参考：
+* [笔者的快捷键设置]()
+* [官方文档的快捷键pdf](https://resources.jetbrains.com/storage/products/webstorm/docs/WebStorm_ReferenceCard.pdf?_ga=2.153677624.1821999752.1577150178-1331372459.1577150178)
+
+`WebStorm`的快捷键是特别多的，为了帮助我们更好的学习快捷键，社区为我们提供了[`Key Promoter X`](https://plugins.jetbrains.com/plugin/9792-key-promoter-x/)来帮助我们学习。每当我们使用鼠标进行操作后，插件都会提示对应操作的快捷键来帮我们进行记忆。
 
 ### 识别`webpack`配置
 在日常开发中，我们可能会苦恼于下面的路径并不能很好的被编辑器识别跳转以及进行代码补全：
