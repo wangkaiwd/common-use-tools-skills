@@ -93,13 +93,27 @@ module.exports = {
 ### 自动导入(`import`)
 
 ### 代码重构
+重构功能可以很方便的帮助我们对完成的代码进行结构以及命名的整理和优化，对应的快捷键为`control + t`。在案件之后的弹窗中我们可以通过模糊搜索来选择想要进行的操作，也可以通过操作对应的数字来进行快速选择。
+
+下面笔者介绍一些工作中经常用到的功能。
+
+#### 变量重命名
+
+#### 提取接口
+在`TypeScript`中，我们可以使用提取接口功能来基于对象结构创建一个新的接口：
+[![](https://pbs.twimg.com/tweet_video_thumb/Du8sWaGXcAE0MzX.jpg)](https://video.twimg.com/tweet_video/Du8sWaGXcAE0MzX.mp4)
+
+#### 提取组件
+
+#### 移动文件
 
 ### 请求测试
+
 
 ### 草稿文件
 
 ### 设置背景图片
-我们可以为`WebStorm`设置喜欢背景壁纸，来增加编码的愉悦感(其实并没有什么卵用)。具体设置：preferences/
+我们可以为`WebStorm`设置喜欢背景壁纸，来增加编码的愉悦感(其实并没有什么卵用)。具体设置：preferences/Appearances & Behavior/Background image
 ![](https://raw.githubusercontent.com/wangkaiwd/drawing-bed/master/tools-skills-webstorm-background.png)
 
 设置效果如下，大家可以自行尝试玩耍：
