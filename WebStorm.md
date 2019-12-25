@@ -21,22 +21,31 @@
 5. 在`css`缩写中开启模糊搜索
    ![](https://raw.githubusercontent.com/wangkaiwd/drawing-bed/master/tools-skill-webstorm-css-abbreviation.png)
    开启之后可以这样写`css`:
-   * `o:h`:overflow:hidden
-   * `c:p`:cursor:pointer
+   ![](https://raw.githubusercontent.com/wangkaiwd/drawing-bed/master/tools-skills-webstorm-css-abbreviation.gif)
+
 ### 必须掌握的快捷键
 #### Double ⇧ : Search Everywhere
 双击`shift`是`WebStorm`中的最强大的一个快捷键，没有之一。
 
 通过双击`shift`,可以搜索你项目中任何与`WebStorm`相关的内容，如打开文件、执行操作或者搜索文件。
-![](blob:https://www.jetbrains.com/e160ad39-71f7-495f-8240-8efd8b5843f3)
 
 #### ⌥⏎ : Show intention actions and quick-fixes
 `option + enter`用来显示你可能会进行的行为以及快速修复代码中的一些问题。
 
 它可以帮我们解决高亮错误或者警告，也可以帮我们提升或改进代码结构。这也是`WebStorm`中一个极其重要的快捷键，基本在任何时候都会用到它。有关它的用法我们会在之后详细介绍。
 
-### 快捷键的学习方法
-这里先介绍一下笔者常用的快捷键，大家可以进行参考：
+### 快捷键设置
+在`WebStorm`的快捷键配置界面如下(preferences/keymap)：
+![](https://raw.githubusercontent.com/wangkaiwd/drawing-bed/master/tools-skills-webstorm-kemap-view.png)
+![](https://raw.githubusercontent.com/wangkaiwd/drawing-bed/master/tools-skills-webstorm-keymap-gif1.gif)
+
+当我们只记得对应的快捷键而忘了该快捷键对应的操作的时候，通过快捷键来反向查询是一个特别实用的技巧。
+
+当然我们也可以通过Double ⇧来搜索对应的操作,可以很方便查看功能及其对应的键位：
+ ![](https://raw.githubusercontent.com/wangkaiwd/drawing-bed/master/tools-webstorm-find-actions.png)
+
+这里笔者整理了一下自己常用的快捷键，有需要的小伙伴可以作为参考： 
+* 
 
 ### 识别`webpack`配置
 在日常开发中，我们可能会苦恼于下面的路径并不能很好的被编辑器识别跳转以及进行代码补全：
