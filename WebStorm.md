@@ -86,7 +86,10 @@ module.exports = {
 配置完成后，小伙伴们就可在项目中完美的实现代码跳转以及路径补全提示了。
 
 ### 设置代码风格
+在`WebStorm`中，我们可以很方便的对不同语言的代码风格进行配置：  
+![](https://raw.githubusercontent.com/wangkaiwd/drawing-bed/master/tools-skills-webstorm-code-style.png)
 
+在该界面，我们可以配置不同语言的代码缩进、行末是否加分号等，然后通过格式化快捷键(`reformat code`)将代码整理成对应的格式。
 ### 自动导入(`import`)
 
 ### 代码重构
@@ -96,7 +99,13 @@ module.exports = {
 ### 草稿文件
 
 ### 设置背景图片
+我们可以为`WebStorm`设置喜欢背景壁纸，来增加编码的愉悦感(其实并没有什么卵用)。具体设置：preferences/
+![](https://raw.githubusercontent.com/wangkaiwd/drawing-bed/master/tools-skills-webstorm-background.png)
+
+设置效果如下，大家可以自行尝试玩耍：
+![](https://raw.githubusercontent.com/wangkaiwd/drawing-bed/master/tools-skills-webstorm-background-preview.png)
 
 ### 图片预览
+只需要按下`option + space`,你就可以在项目目录中直接预览图片：  
 
-
+[![](https://pbs.twimg.com/tweet_video_thumb/EFPoNFnXoAA68LJ.jpg)](https://video.twimg.com/tweet_video/EFPoNFnXoAA68LJ.mp4)
