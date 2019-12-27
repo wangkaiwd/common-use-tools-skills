@@ -142,4 +142,4 @@ module.exports = {
 
 最后祝愿大家都能在阅读完本文后能提升工作效率，更加熟练的使用`WebStorm`。当然，如果你有更好的学习方法或者使用技巧，欢迎留言讨论。
 
-原文地址在这里：[传送门](https://github.com/wangkaiwd/WebStorm-Skills/blob/master/WebStorm.md),欢迎`star`
+原文地址在这里：[传送门](https://github.com/wangkaiwd/WebStorm-Skills/blob/master/WebStorm.md),欢迎喜欢的小伙伴`star`
