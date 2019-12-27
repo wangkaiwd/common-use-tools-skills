@@ -96,8 +96,10 @@ module.exports = {
 
 #### 快捷键导入
 
+#### 优化导入
+
 ### 代码重构
-重构功能可以很方便的帮助我们对完成的代码进行结构以及命名的整理和优化，对应的快捷键为`control + t`。在案件之后的弹窗中我们可以通过模糊搜索来选择想要进行的操作，也可以通过操作对应的数字来进行快速选择。
+重构功能可以很方便的帮助我们对完成的代码进行结构以及命名的整理和优化，对应的快捷键为`control + t`。在按键之后的弹窗中我们可以通过模糊搜索来选择想要进行的操作，也可以通过操作对应的数字来进行快速选择。
 
 下面笔者介绍一些工作中经常用到的功能。
 
@@ -110,6 +112,8 @@ module.exports = {
 #### 提取组件
 
 #### 移动文件
+
+#### 安全删除
 
 ### 请求测试
 
@@ -127,3 +131,15 @@ module.exports = {
 只需要按下`option + space`,你就可以在项目目录中直接预览图片：  
 
 [![](https://pbs.twimg.com/tweet_video_thumb/EFPoNFnXoAA68LJ.jpg)](https://video.twimg.com/tweet_video/EFPoNFnXoAA68LJ.mp4)
+
+### 结语
+
+文中介绍的内容主要来自于以下资料：
+* [`WebStorm`官方文档](https://www.jetbrains.com/help/webstorm/meet-webstorm.html) 
+* [`WebStorm`推特](https://twitter.com/WebStormIDE)
+
+如果你想了解`WebStorm`的更多使用细节和技巧，那么你可以阅读它的帮助文档，这里有你想知道的一切。而`WebStorm`的官方推特账号中，会有对应操作技巧的操作动图，更方便大家理解对应操作的用途，并且为学习增添了极大的趣味性。
+
+最后祝愿大家都能在阅读完本文后能提升工作效率，更加熟练的使用`WebStorm`。当然，如果你有更好的学习方法或者使用技巧，欢迎留言讨论。
+
+原文地址在这里：[传送门](https://github.com/wangkaiwd/WebStorm-Skills/blob/master/WebStorm.md),欢迎`star`
