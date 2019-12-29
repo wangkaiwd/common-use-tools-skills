@@ -1,8 +1,13 @@
 ## 压箱底的`WebStorm`使用技巧，让你效率翻倍，不再加班！
+> 由于`WebStorm`的学习资料基本都是来自国外，所以本文大部分内容需要科学上网才能查看，请读者自备
 
 在日常开发中，我们接触最多的莫过于代码编辑器。在各种编辑器中，我最喜欢的是`WebStorm`，它极大的提升了我的日常开发效率和代码质量。
 
 工欲善其事必先利其器，这里我将我自己知道的`WebStorm`技巧分享出来，希望能让同样喜欢`WebStorm`的小伙伴效率翻倍、告别加班。
+
+出于对`WebStorm`的热爱，有人搜集了`WebStorm`各版本的启动动画，确实很酷。图片来源：[戳我](https://twitter.com/Fuzzel_/status/1207054049897517062)
+![](https://pbs.twimg.com/media/EMBRQIoWkAAal-U?format=jpg&name=4096x4096)
+
 
 ### 基本入门配置
 1. 禁用自动保存(可选),并添加未保存标签的样式
@@ -45,7 +50,7 @@
  ![](https://raw.githubusercontent.com/wangkaiwd/drawing-bed/master/tools-webstorm-find-actions.png)
 
 以下的快捷键键位可以进行参考：
-* [笔者的快捷键设置]()
+* [笔者的快捷键设置](https://github.com/wangkaiwd/WebStorm-Skills/blob/master/WebStormKeymap.md)
 * [官方文档的快捷键pdf](https://resources.jetbrains.com/storage/products/webstorm/docs/WebStorm_ReferenceCard.pdf?_ga=2.153677624.1821999752.1577150178-1331372459.1577150178)
 
 `WebStorm`的快捷键是特别多的，为了帮助我们更好的学习快捷键，社区为我们提供了[`Key Promoter X`](https://plugins.jetbrains.com/plugin/9792-key-promoter-x/)来帮助我们学习。每当我们使用鼠标进行操作后，插件都会提示对应操作的快捷键来帮我们进行记忆。
@@ -154,10 +159,13 @@ module.exports = {
 
 [![](https://pbs.twimg.com/tweet_video_thumb/EFPoNFnXoAA68LJ.jpg)](https://video.twimg.com/tweet_video/EFPoNFnXoAA68LJ.mp4)
 
+### 开源项目申请免费版
+
 ### 结语
 
 文中介绍的内容主要来自于以下资料：
 * [`WebStorm`官方文档](https://www.jetbrains.com/help/webstorm/meet-webstorm.html) 
+* [`WebStorm`官方博客](https://blog.jetbrains.com/webstorm/)
 * [`WebStorm`推特](https://twitter.com/WebStormIDE)
 
 如果你想了解`WebStorm`的更多使用细节和技巧，那么你可以阅读它的帮助文档，这里有你想知道的一切。而`WebStorm`的官方推特账号中，会有对应操作技巧的操作动图，更方便大家理解对应操作的用途，并且为学习增添了极大的趣味性。
