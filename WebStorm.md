@@ -117,15 +117,19 @@ module.exports = {
 
 #### 变量重命名
 
-#### 提取接口
-在`TypeScript`中，我们可以使用提取接口功能来基于对象结构创建一个新的接口：
+#### [提取接口](https://twitter.com/WebStormIDE/status/1077949657962156034?s=20)
+在`TypeScript`中，我们可以使用提取接口功能来基于对象结构创建一个新的接口(点击图片查看动图)：
 [![](https://pbs.twimg.com/tweet_video_thumb/Du8sWaGXcAE0MzX.jpg)](https://video.twimg.com/tweet_video/Du8sWaGXcAE0MzX.mp4)
 
 #### 提取组件
 
-#### 移动文件
+#### [移动文件](https://twitter.com/aaronadler/status/1156726433101885440)
+`WebStorm`会在我们移动文件后，自动修复文件对应的导入路径，这将为我们节省很多时间
+![](https://pbs.twimg.com/media/EA2EjycXYAExPhy?format=png&name=900x900)
 
-#### 安全删除
+#### [安全删除](https://twitter.com/WebStormIDE/status/1181661319843463170)
+当你删除项目中的一个文件时，可能会担心文件会在其它地方被用到，删除之后将导致项目运行出错。`WebStorm`为我们提供了安全删除(safe delete)选项，会再次确认删除的文件没有在项目中的任何地方被导入使用，并作出相应的提示(点击查看动图)：
+[![](https://pbs.twimg.com/tweet_video_thumb/EGYaqN0W4AYSGkd.jpg)](https://video.twimg.com/tweet_video/EGYaqN0W4AYSGkd.mp4)
 
 ### 同步配置文件
 为了实现一次配置多次使用，而不用每次在更换电脑时再进行繁琐而重复的配置，`WebStorm`为我们提供了将配置与`GitHub`仓库之间相互同步的功能。
@@ -168,7 +172,7 @@ module.exports = {
 * [`WebStorm`官方博客](https://blog.jetbrains.com/webstorm/)
 * [`WebStorm`推特](https://twitter.com/WebStormIDE)
 
-如果你想了解`WebStorm`的更多使用细节和技巧，那么你可以阅读它的帮助文档，这里有你想知道的一切。而`WebStorm`的官方推特账号中，会有对应操作技巧的操作动图，更方便大家理解对应操作的用途，并且为学习增添了极大的趣味性。
+如果你想了解`WebStorm`的更多使用细节和技巧，那么你可以阅读它的帮助文档，这里有你想知道的一切。在`WebStorm`的官方推特账号中，会有对应操作技巧的操作动图，更方便大家理解对应操作的用途，并且为学习增添了极大的趣味性。
 
 最后祝愿大家都能在阅读完本文后能提升工作效率，更加熟练的使用`WebStorm`。当然，如果你有更好的学习方法或者使用技巧，欢迎留言讨论。
 
