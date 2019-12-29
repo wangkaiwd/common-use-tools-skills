@@ -50,6 +50,7 @@
 
 `WebStorm`的快捷键是特别多的，为了帮助我们更好的学习快捷键，社区为我们提供了[`Key Promoter X`](https://plugins.jetbrains.com/plugin/9792-key-promoter-x/)来帮助我们学习。每当我们使用鼠标进行操作后，插件都会提示对应操作的快捷键来帮我们进行记忆。
 
+
 ### 识别`webpack`配置
 在日常开发中，我们可能会苦恼于下面的路径并不能很好的被编辑器识别跳转以及进行代码补全：
 ```js
@@ -90,6 +91,12 @@ module.exports = {
 ![](https://raw.githubusercontent.com/wangkaiwd/drawing-bed/master/tools-skills-webstorm-code-style.png)
 
 在该界面，我们可以配置不同语言的代码缩进、行末是否加分号等，然后通过格式化快捷键(`reformat code`)将代码整理成对应的格式。
+
+如下是一些笔者常用的配置：
+![](https://raw.githubusercontent.com/wangkaiwd/drawing-bed/master/tools-skills-webstorm-js-code-style-sipmle.png)
+
+尾逗号可以在为`JavaScript`元素添加元素、参数、属性等时，不用再为前一行添加分号，使我们更愉快的编码。更为详细的介绍在这里： [尾逗号](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Trailing_commas)
+
 ### 自动导入(`import`)
 
 #### 复制代码
@@ -114,6 +121,21 @@ module.exports = {
 #### 移动文件
 
 #### 安全删除
+
+### 同步配置文件
+为了实现一次配置多次使用，而不用每次在更换电脑时再进行繁琐而重复的配置，`WebStorm`为我们提供了将配置与`GitHub`仓库之间相互同步的功能。
+
+操作步骤如下：  
+1. 在`GitHub`中创建一个单独的仓库来专门存储`WebStorm`的配置
+2. 在`File/Settings Repository`中进行同步配置
+
+在`WebStorm`中的具体操作如下：
+![](https://raw.githubusercontent.com/wangkaiwd/drawing-bed/master/tools-skills-sync-settings-file.png)
+![](https://raw.githubusercontent.com/wangkaiwd/drawing-bed/master/tools-skills-webstorm-sync-config-repository-set.png)
+
+如果有小伙伴想要使用一个现成的配置的话，可以直接使用笔者的[配置仓库](https://github.com/wangkaiwd/syncWebstormConfig): `git@github.com:wangkaiwd/syncWebstormConfig.git`来直接覆盖自己的配置。
+
+> 注意： 笔者使用的是`mac`系统，如果你使用的是`Windows`系统的话，直接导入配置会造成快捷键混乱，操作时要慎重！ 
 
 ### 请求测试
 
