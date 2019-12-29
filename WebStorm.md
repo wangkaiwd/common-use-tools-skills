@@ -1,4 +1,4 @@
-## 9大`WebStorm`技巧，让你效率翻倍，不再加班！
+## 压箱底的`WebStorm`使用技巧，让你效率翻倍，不再加班！
 
 在日常开发中，我们接触最多的莫过于代码编辑器。在各种编辑器中，我最喜欢的是`WebStorm`，它极大的提升了我的日常开发效率和代码质量。
 
@@ -95,7 +95,7 @@ module.exports = {
 如下是一些笔者常用的配置：
 ![](https://raw.githubusercontent.com/wangkaiwd/drawing-bed/master/tools-skills-webstorm-js-code-style-sipmle.png)
 
-尾逗号可以在为`JavaScript`元素添加元素、参数、属性等时，不用再为前一行添加分号，使我们更愉快的编码。更为详细的介绍在这里： [尾逗号](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Trailing_commas)
+> 尾逗号可以在为`JavaScript`元素添加元素、参数、属性等时，不用再为前一行添加分号，使我们更愉快的编码。更为详细的介绍在这里： [尾逗号](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Trailing_commas)
 
 ### 自动导入(`import`)
 
