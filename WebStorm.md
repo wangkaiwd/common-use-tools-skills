@@ -163,7 +163,17 @@ module.exports = {
 
 [![](https://pbs.twimg.com/tweet_video_thumb/EFPoNFnXoAA68LJ.jpg)](https://video.twimg.com/tweet_video/EFPoNFnXoAA68LJ.mp4)
 
-### 开源项目申请免费版
+### [开源项目申请免费版](https://www.jetbrains.com/opensource/)
+如果你的非商业开源项目满足这些需求，可以免费获得`JetBrains`工具的`licenses`:
+* 你的项目满足[开源定义](https://opensource.org/docs/osd)
+* 你的项目至少有3个月的开发历史
+* 你的项目活跃并且定期开发
+* 你是项目的领导或者是一个活跃的提交者
+* 你的项目没有被商业公司或组织赞助并且没有付薪员工
+* 你的项目不提供围绕软件的商业服务(例如咨询或者培训)，你的项目也不能发布付费版本
+
+简单来说,你的项目持续维护或开发至少3个月，并且项目有预览链接、遵循`MIT`许可证，基本上以及满足申请免费版的资格了。满足要求的小伙伴赶快行动起来吧：[申请地址](https://www.jetbrains.com/shop/eform/opensource?product=ALL)
+
 
 ### 结语
 
