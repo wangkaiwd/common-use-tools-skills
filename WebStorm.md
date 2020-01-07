@@ -121,8 +121,6 @@ module.exports = {
 在`TypeScript`中，我们可以使用提取接口功能来基于对象结构创建一个新的接口(点击图片查看动图)：
 [![](https://pbs.twimg.com/tweet_video_thumb/Du8sWaGXcAE0MzX.jpg)](https://video.twimg.com/tweet_video/Du8sWaGXcAE0MzX.mp4)
 
-#### 提取组件
-
 #### [移动文件](https://twitter.com/aaronadler/status/1156726433101885440)
 `WebStorm`会在我们移动文件后，自动修复文件对应的导入路径，这将为我们节省很多时间
 ![](https://pbs.twimg.com/media/EA2EjycXYAExPhy?format=png&name=900x900)
@@ -146,10 +144,28 @@ module.exports = {
 
 > 注意： 笔者使用的是`mac`系统，如果你使用的是`Windows`系统的话，直接导入配置会造成快捷键混乱，操作时要慎重！ 
 
-### 请求测试
-
-
 ### 草稿文件
+有时你可能会记录一些临时笔记或者测试代码，这些代码并不需要添加到项目中。此时你可能会新开一个编辑器或者记事本，或者在项目中随意些写一些代码(由于临时测试可能由于忘记删除而引发`bug`)。
+
+针对这种情况，`WebStorm`为我们提供了临时文件的功能：
+![](https://raw.githubusercontent.com/wangkaiwd/drawing-bed/master/tools-skills-webstorm-stratch-file.png)
+
+只需在编辑器的项目工具窗口中右键`Scratches and Consoles`，然后点击`new scratch file`即可选择符合要求的临时文件进行创建。
+
+临时文件可以做下面这些事：
+* 起草代码结构
+* 进行`HTTP request`测试
+* 书写`JSON`文档
+* 记录自己的临时想法，并可以在多个项目中共享
+* ...
+
+> Tips: 草稿文件没有存储到你的项目目录中，在使用`WebStorm`打开其它项目时也可以打开并访问草稿文件。这方便了我们在多个项目中共享我们的草稿文件中的笔记和想法。
+
+### [请求测试](https://twitter.com/WebStormIDE/status/1167101970777288705)
+在日常工作中，我们常常需要测试接口是否可以正常调用，`WebStorm`可以帮助我们测试接口，具体操作如下(点击播放动图)：
+[![](https://pbs.twimg.com/tweet_video_thumb/EDJhCQyXsAAYwIf.jpg)](https://video.twimg.com/tweet_video/EDJhCQyXsAAYwIf.mp4)
+
+当然，我们可以结合`WebStorm`的草稿文件来使用，避免为项目添加多余的代码。
 
 ### 设置背景图片
 我们可以为`WebStorm`设置喜欢背景壁纸，来增加编码的愉悦感(其实并没有什么卵用)。具体设置：preferences/Appearances & Behavior/Background image
