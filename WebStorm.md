@@ -8,8 +8,9 @@
 
 工欲善其事必先利其器，这里我将我自己知道的`WebStorm`技巧分享出来，希望能让同样喜欢`WebStorm`的小伙伴效率翻倍、告别加班。
 
-出于对`WebStorm`的热爱，有人搜集了`WebStorm`各版本的启动动画，让我们来一起回顾一下历史。确实很酷有木有？。图片来源：[戳我](https://twitter.com/Fuzzel_/status/1207054049897517062)
+出于对`WebStorm`的热爱，有人搜集了`WebStorm`各版本的启动动画，让我们来一起回顾一下历史。确实很酷有木有？(https://twitter.com/Fuzzel_/status/1207054049897517062)
 ![](https://pbs.twimg.com/media/EMBRQIoWkAAal-U?format=jpg&name=4096x4096)
+图片来源：[戳我]
 
 
 ### 基本入门配置
@@ -166,8 +167,10 @@ import something from '@/path/to/something'
 在之前的编程生涯中，要想找到一个文件要被哪些件引入使用时，一般会根据文件所在的路径来进行搜索：
 ![](https://raw.githubusercontent.com/wangkaiwd/drawing-bed/master/tools-skills-webstorm-global-search-file.png)
 
-在使用`WebStorm`之后，我们基本上可以告别这个操作了：
-![](https://raw.githubusercontent.com/wangkaiwd/drawing-bed/master/tools-skills-webstorm-find-usage.gif)
+在使用`WebStorm`之后，我们基本上可以告别这个操作：
+![](https://raw.githubusercontent.com/wangkaiwd/drawing-bed/master/tools-skills-webstorm-find-usage2-2.gif)
+
+在项目工具窗口中，文件上右键，点击`find usage`选项后，`WebStorm`下方会展示出所有引用该文件的位置。这样我们可以很快的查找到代码的使用示例，为阅读、理解以及参考其他同事的代码提供了极大的方便。
 
 
 ### 同步配置文件
