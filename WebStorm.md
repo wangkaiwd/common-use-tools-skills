@@ -111,7 +111,7 @@ module.exports = {
 #### 优化导入
 
 ### 代码重构
-重构功能可以很方便的帮助我们对完成的代码进行结构以及命名的整理和优化，对应的快捷键为`control + t`。在按键之后的弹窗中我们可以通过模糊搜索来选择想要进行的操作，也可以通过操作对应的数字来进行快速选择。
+重构功能可以很方便的帮助我们对完成的代码进行结构以及命名的整理和优化，对应的快捷键为`control + t`(默认)。在按键之后的弹窗中我们可以通过模糊搜索来选择想要进行的操作，也可以通过操作对应的数字来进行快速选择。
 
 下面笔者介绍一些工作中经常用到的功能。如果你想了解更详细内容，可以阅读官方文档:[Refactoring code﻿](https://www.jetbrains.com/help/webstorm/refactoring-source-code.html)
 
@@ -120,7 +120,7 @@ module.exports = {
 ![](https://raw.githubusercontent.com/wangkaiwd/drawing-bed/master/tools-skills-webstorm-rename.gif)
 
 这里我们对`link`变量重命名，可以看到引用到该变量的地方全都更新了,具体操作如下：
-1. 选中你想要重命名的表达式或符号，按下ctrl + t (Refactor this)
+1. 选中你想要重命名的表达式或符号，按下control + t (Refactor this)
 2. 模糊搜索`Rename`,并回车选择`Rename`
 3. 修改为合适的变量名，回车结束
 #### [提取接口](https://twitter.com/WebStormIDE/status/1077949657962156034?s=20)
@@ -134,6 +134,14 @@ module.exports = {
 #### [安全删除](https://twitter.com/WebStormIDE/status/1181661319843463170)
 当你删除项目中的一个文件时，可能会担心文件会在其它地方被用到，删除之后将导致项目运行出错。`WebStorm`为我们提供了安全删除(safe delete)选项，会再次确认删除的文件没有在项目中的任何地方被导入使用，并作出相应的提示(点击查看动图)：
 [![](https://pbs.twimg.com/tweet_video_thumb/EGYaqN0W4AYSGkd.jpg)](https://video.twimg.com/tweet_video/EGYaqN0W4AYSGkd.mp4)
+
+### 查找文件引用
+在之前的编程生涯中，要想找到一个文件要被哪些件引入使用时，一般会根据文件所在的路径来进行搜索：
+![](https://raw.githubusercontent.com/wangkaiwd/drawing-bed/master/tools-skills-webstorm-global-search-file.png)
+
+在使用`WebStorm`之后，我们基本上可以告别这个操作了：
+![](https://raw.githubusercontent.com/wangkaiwd/drawing-bed/master/tools-skills-webstorm-find-usage.gif)
+
 
 ### 同步配置文件
 为了实现一次配置多次使用，而不用每次在更换电脑时再进行繁琐而重复的配置，`WebStorm`为我们提供了将配置与`GitHub`仓库之间相互同步的功能。
@@ -188,6 +196,7 @@ module.exports = {
 ### 其它小技巧
 * 清空缓存并重启`WebStorm`(`File/Invalidate Caches/Restart`): 在`WebStorm`工作异常的时候，清空缓存并重启可以解决99%的问题
 * 从最近的剪切板中进行复制(`Paste From History`): 可以浏览自己的多次复制内容，并挑选其中有用的内容进行使用
+* [Grazie](https://plugins.jetbrains.com/plugin/12175-grazie/)插件：可以帮我们[识别注释中的拼写错误](https://twitter.com/WebStormIDE/status/1212381965883596803)。
 
 ### [开源项目申请免费版](https://www.jetbrains.com/opensource/)
 如果你的非商业开源项目满足这些需求，可以免费获得`JetBrains`工具的`licenses`:
@@ -198,7 +207,7 @@ module.exports = {
 * 你的项目没有被商业公司或组织赞助并且没有付薪员工
 * 你的项目不提供围绕软件的商业服务(例如咨询或者培训)，你的项目也不能发布付费版本
 
-简单来说,你的项目持续维护或开发至少3个月，并且项目有预览链接、遵循`MIT`许可证，基本上以及满足申请免费版的资格了。满足要求的小伙伴赶快行动起来吧：[申请地址](https://www.jetbrains.com/shop/eform/opensource?product=ALL)
+简单来说,你的**项目持续维护或开发至少3个月，并且项目有预览链接、遵循`MIT`开源协议**，基本上以及满足申请免费版的资格了。满足要求的小伙伴赶快行动起来吧：[申请地址](https://www.jetbrains.com/shop/eform/opensource?product=ALL)
 
 
 ### 结语
