@@ -123,7 +123,15 @@ import something from '@/path/to/something'
 
 这样我们在复制代码的时候，就不用在花时间复制他的导入(`import`)代码
 
-#### 优化导入
+#### [优化导入](https://blog.jetbrains.com/webstorm/2018/05/optimize-imports-in-webstorm/)
+很多时候我们可能会碰到如下的问题：
+![](https://raw.githubusercontent.com/wangkaiwd/drawing-bed/master/tools-skills-webstorm-error-import.png)
+
+图中报错的2个变量是由于在代码中没有使用，此时我们可以通过`optimize import`(可以通过`shift+shift`进行搜索或者快捷键来执行该操作)来帮我们自动删除多余的导入。
+
+优化导入可以使我们的代码更整洁、可读性更好，它可以帮我们做下面这些事：
+* 移除不再使用的导入
+* 合并多个相同文件
 
 ### 代码重构
 重构功能可以很方便的帮助我们对完成的代码进行结构以及命名的整理和优化，对应的快捷键为`control + t`(默认)。在按键之后的弹窗中我们可以通过模糊搜索来选择想要进行的操作，也可以通过操作对应的数字来进行快速选择。
