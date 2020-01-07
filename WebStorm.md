@@ -113,10 +113,16 @@ module.exports = {
 ### 代码重构
 重构功能可以很方便的帮助我们对完成的代码进行结构以及命名的整理和优化，对应的快捷键为`control + t`。在按键之后的弹窗中我们可以通过模糊搜索来选择想要进行的操作，也可以通过操作对应的数字来进行快速选择。
 
-下面笔者介绍一些工作中经常用到的功能。
+下面笔者介绍一些工作中经常用到的功能。如果你想了解更详细内容，可以阅读官方文档:[Refactoring code﻿](https://www.jetbrains.com/help/webstorm/refactoring-source-code.html)
 
 #### 变量重命名
+编码过程中，很多时候我们一开始设置的变量名并不是很准确，而在之后修改的时候发现很多地方使用到，得一个个修改。如果你也经常遇到这种问题，那么这个技巧可以快速提高你的效率：
+![](https://raw.githubusercontent.com/wangkaiwd/drawing-bed/master/tools-skills-webstorm-rename.gif)
 
+这里我们对`link`变量重命名，可以看到引用到该变量的地方全都更新了,具体操作如下：
+1. 选中你想要重命名的表达式或符号，按下ctrl + t (Refactor this)
+2. 模糊搜索`Rename`,并回车选择`Rename`
+3. 修改为合适的变量名，回车结束
 #### [提取接口](https://twitter.com/WebStormIDE/status/1077949657962156034?s=20)
 在`TypeScript`中，我们可以使用提取接口功能来基于对象结构创建一个新的接口(点击图片查看动图)：
 [![](https://pbs.twimg.com/tweet_video_thumb/Du8sWaGXcAE0MzX.jpg)](https://video.twimg.com/tweet_video/Du8sWaGXcAE0MzX.mp4)
