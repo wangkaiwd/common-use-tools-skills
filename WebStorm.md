@@ -179,6 +179,10 @@ module.exports = {
 
 [![](https://pbs.twimg.com/tweet_video_thumb/EFPoNFnXoAA68LJ.jpg)](https://video.twimg.com/tweet_video/EFPoNFnXoAA68LJ.mp4)
 
+### 其它小技巧
+* 清空缓存并重启`WebStorm`(`File/Invalidate Caches/Restart`): 在`WebStorm`工作异常的时候，清空缓存并重启可以解决99%的问题
+* 从最近的剪切板中进行复制(`Paste From History`): 可以浏览自己的多次复制内容，并挑选其中有用的内容进行使用
+
 ### [开源项目申请免费版](https://www.jetbrains.com/opensource/)
 如果你的非商业开源项目满足这些需求，可以免费获得`JetBrains`工具的`licenses`:
 * 你的项目满足[开源定义](https://opensource.org/docs/osd)
@@ -193,7 +197,7 @@ module.exports = {
 
 ### 结语
 
-文中介绍的内容主要来自于以下资料：
+文中介绍的内容主要来自于以下资料,你想要的这里都有：
 * [`WebStorm`官方文档](https://www.jetbrains.com/help/webstorm/meet-webstorm.html) 
 * [`WebStorm`官方博客](https://blog.jetbrains.com/webstorm/)
 * [`WebStorm`推特](https://twitter.com/WebStormIDE)
