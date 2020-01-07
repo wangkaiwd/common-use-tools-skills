@@ -106,14 +106,22 @@ module.exports = {
 > 尾逗号可以在为`JavaScript`元素添加元素、参数、属性等时，不用再为前一行添加分号，使我们更愉快的编码。更为详细的介绍在这里： [尾逗号](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Trailing_commas)
 
 ### 自动导入
-在编写代码的过程中，`WebStorm`可以帮我们自动引入使用到的元素，而不用我们每次都需要在文在开头写如下代码：
+在编写代码的过程中，`WebStorm`可以帮我们自动引入使用到的元素，而不用我们每次都需要在文件开头写如下代码，让我们可以专注于代码逻辑编写：
 ```js
 import something from '@/path/to/something'
 ```
 
 #### 快捷键导入
+这里我们可以使用上文中介绍到的`option + enter`快捷键，来将使用的变量自动引入：
+![](https://raw.githubusercontent.com/wangkaiwd/drawing-bed/master/tools-skills-webstorm-keymap-auto-import.gif)
 
-#### 复制代码
+> 在按下`option + enter`快捷键后，要注意根据提示选择对应的内容，这里只演示一种
+
+#### [复制代码](https://twitter.com/WebStormIDE/status/1051874304319770626)
+在`WebStorm`中，从一个文件复制代码并粘贴到另外一个文件中时，将会自动帮添加所有必要的导入(`import`)：
+[![](https://pbs.twimg.com/tweet_video_thumb/DpkCBOYWsAIxU5K.jpg)](https://video.twimg.com/tweet_video/DpkCBOYWsAIxU5K.mp4)
+
+这样我们在复制代码的时候，就不用在花时间复制他的导入(`import`)代码
 
 #### 优化导入
 
@@ -186,7 +194,7 @@ import something from '@/path/to/something'
 在日常工作中，我们常常需要测试接口是否可以正常调用，`WebStorm`可以帮助我们测试接口，具体操作如下(点击播放动图)：
 [![](https://pbs.twimg.com/tweet_video_thumb/EDJhCQyXsAAYwIf.jpg)](https://video.twimg.com/tweet_video/EDJhCQyXsAAYwIf.mp4)
 
-当然，我们可以结合`WebStorm`的草稿文件来使用，避免为项目添加多余的代码。
+途中结合了`WebStorm`的草稿文件来使用，避免了为项目添加多余的代码而引发不必要的问题。
 
 ### 设置背景图片
 我们可以为`WebStorm`设置喜欢背景壁纸，来增加编码的愉悦感(其实并没有什么卵用)。具体设置：preferences/Appearances & Behavior/Background image

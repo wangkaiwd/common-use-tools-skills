@@ -1,4 +1,6 @@
 ### 个人的`WebStorm`快捷键
+> 粗体为使用频率较高的快捷键
+
 shortcut | action | translate
 --- | --- | ---
 **option + enter** | Show Context Actions | 显示符合上下文意图的操作
@@ -12,7 +14,7 @@ shortcut | action | translate
 **command + [ / ]** | Back/Forward | 撤销/重做 上一次的导航操作(执行跳转，然后在跳转前后来回切换尤为好用)
 option + up/down| Extend/Shrink Selection | 根据代码语义逐渐增加或减少选择的代码块
 command + shift + k | Delete Line | 删除当前行
-command + j | Join Lines | 将下一行拼接当当前行(在整理代码格式,如将多行对象或参数整理为一行时尤其好用)
+command + j | Join Lines | 将下一行拼接到当前行(在整理代码格式,如将多行对象或参数整理为一行时尤其好用)
 command + 6 | Rename(rename the selected symbol and correct all references)| 重命名选择的符号并且更正所有的引用
 command + t | Refactor This(context aware popup with list of refactor actions) | 具有重构操作列表的上下文感知弹出窗口
 command + shift + v | Paste From History(paste from recent clipboards) | 从最近的剪切板中粘贴
