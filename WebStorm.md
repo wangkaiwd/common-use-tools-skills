@@ -1,6 +1,6 @@
 ## 压箱底的`WebStorm`使用技巧，让你效率翻倍，不再加班！
 > **友情提示**：
-> * 由于`WebStorm`的学习资料基本都是来自国外，所以本文大部分内容需要科学上网(全局)才能查看，请读者自备
+> * 由于`WebStorm`的学习资料基本都是来自国外，所以本文大部分内容需要科学上网(全局)才能查看图片，请读者自备
 > * 当你阅读本文的时候希望可以跟着文章自己手动操作一下，这样不仅可以加深记忆，更会让你深刻体验到对应操作的实际用途
 > * 笔者使用的是`mac`系统，`windows`操作系统需要区分下键位和对应的操作
 
@@ -105,11 +105,15 @@ module.exports = {
 
 > 尾逗号可以在为`JavaScript`元素添加元素、参数、属性等时，不用再为前一行添加分号，使我们更愉快的编码。更为详细的介绍在这里： [尾逗号](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Trailing_commas)
 
-### 自动导入(`import`)
-
-#### 复制代码
+### 自动导入
+在编写代码的过程中，`WebStorm`可以帮我们自动引入使用到的元素，而不用我们每次都需要在文在开头写如下代码：
+```js
+import something from '@/path/to/something'
+```
 
 #### 快捷键导入
+
+#### 复制代码
 
 #### 优化导入
 
@@ -136,7 +140,7 @@ module.exports = {
 
 #### [安全删除](https://twitter.com/WebStormIDE/status/1181661319843463170)
 当你删除项目中的一个文件时，可能会担心文件会在其它地方被用到，删除之后将导致项目运行出错。`WebStorm`为我们提供了安全删除(safe delete)选项，会再次确认删除的文件没有在项目中的任何地方被导入使用，并作出相应的提示(点击查看动图)：
-[![](https://pbs.twimg.com/tweet_video_thumb/EGYaqN0W4AYSGkd.jpg)](https://video.twimg.com/tweet_video/EGYaqN0W4AYSGkd.mp4){:target="_blank"}
+[![](https://pbs.twimg.com/tweet_video_thumb/EGYaqN0W4AYSGkd.jpg)](https://video.twimg.com/tweet_video/EGYaqN0W4AYSGkd.mp4)
 
 ### 查找文件引用
 在之前的编程生涯中，要想找到一个文件要被哪些件引入使用时，一般会根据文件所在的路径来进行搜索：
