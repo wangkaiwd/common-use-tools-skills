@@ -131,7 +131,9 @@ import something from '@/path/to/something'
 
 优化导入可以使我们的代码更整洁、可读性更好，它可以帮我们做下面这些事：
 * 移除不再使用的导入
-* 合并多个相同文件
+* 合并多个相同文件的导入
+* 为同一个`import`中导入的内部成员排序以及通过模块名为导入内容排序
+![](https://d3nmt5vlzunoa1.cloudfront.net/webstorm/files/2018/05/optimize-imports.gif)
 
 ### 代码重构
 重构功能可以很方便的帮助我们对完成的代码进行结构以及命名的整理和优化，对应的快捷键为`control + t`(默认)。在按键之后的弹窗中我们可以通过模糊搜索来选择想要进行的操作，也可以通过操作对应的数字来进行快速选择。
@@ -196,13 +198,14 @@ import something from '@/path/to/something'
 * 记录自己的临时想法，并可以在多个项目中共享
 * ...
 
-> Tips: 草稿文件没有存储到你的项目目录中，在使用`WebStorm`打开其它项目时也可以打开并访问草稿文件。这方便了我们在多个项目中共享我们的草稿文件中的笔记和想法。
+> **Tips**:   
+> 草稿文件没有存储到你的项目目录中，在使用`WebStorm`打开其它项目时也可以打开并访问草稿文件。这方便了我们在多个项目中共享我们的草稿文件中的笔记和想法。
 
 ### [请求测试](https://twitter.com/WebStormIDE/status/1167101970777288705)
 在日常工作中，我们常常需要测试接口是否可以正常调用，`WebStorm`可以帮助我们测试接口，具体操作如下(点击播放动图)：
 [![](https://pbs.twimg.com/tweet_video_thumb/EDJhCQyXsAAYwIf.jpg)](https://video.twimg.com/tweet_video/EDJhCQyXsAAYwIf.mp4)
 
-途中结合了`WebStorm`的草稿文件来使用，避免了为项目添加多余的代码而引发不必要的问题。
+图中结合了`WebStorm`的草稿文件来使用，避免了为项目添加多余的代码而引发不必要的问题，而且我们也不用再使用其它第三方工具(如:postman)来测试接口。
 
 ### 设置背景图片
 我们可以为`WebStorm`设置喜欢背景壁纸，来增加编码的愉悦感(其实并没有什么卵用)。具体设置：preferences/Appearances & Behavior/Background image
@@ -230,7 +233,7 @@ import something from '@/path/to/something'
 * 你的项目没有被商业公司或组织赞助并且没有付薪员工
 * 你的项目不提供围绕软件的商业服务(例如咨询或者培训)，你的项目也不能发布付费版本
 
-简单来说,你的**项目持续维护或开发至少3个月，并且项目有预览链接、遵循`MIT`开源协议**，基本上以及满足申请免费版的资格了。满足要求的小伙伴赶快行动起来吧：[申请地址](https://www.jetbrains.com/shop/eform/opensource?product=ALL)
+简单来说,你的**项目持续维护或开发至少3个月，并且项目有预览链接、遵循`MIT`开源协议**，基本上以经满足申请免费版的资格了。满足要求的小伙伴赶快行动起来吧：[申请地址](https://www.jetbrains.com/shop/eform/opensource?product=ALL)
 
 
 ### 结语
