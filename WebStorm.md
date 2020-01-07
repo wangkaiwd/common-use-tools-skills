@@ -136,7 +136,7 @@ module.exports = {
 
 #### [安全删除](https://twitter.com/WebStormIDE/status/1181661319843463170)
 当你删除项目中的一个文件时，可能会担心文件会在其它地方被用到，删除之后将导致项目运行出错。`WebStorm`为我们提供了安全删除(safe delete)选项，会再次确认删除的文件没有在项目中的任何地方被导入使用，并作出相应的提示(点击查看动图)：
-[![](https://pbs.twimg.com/tweet_video_thumb/EGYaqN0W4AYSGkd.jpg)](https://video.twimg.com/tweet_video/EGYaqN0W4AYSGkd.mp4)
+[![](https://pbs.twimg.com/tweet_video_thumb/EGYaqN0W4AYSGkd.jpg)](https://video.twimg.com/tweet_video/EGYaqN0W4AYSGkd.mp4){:target="_blank"}
 
 ### 查找文件引用
 在之前的编程生涯中，要想找到一个文件要被哪些件引入使用时，一般会根据文件所在的路径来进行搜索：
