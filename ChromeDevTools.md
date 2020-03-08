@@ -19,7 +19,7 @@
 快捷键：command + shift + p(或command + P 输入 >),类似于`WebStorm`中的`Find Actions`(command + shift + a)
 
 可以通过该命令搜索对应的操作：
-* capture full size screenshot
+* capture full size screenshot(长截图)
 
 ### console 中的 `$`
 * $: `document.querySelector`
@@ -38,3 +38,30 @@ console.log()打印的是对象的引用，所以在对象更改后，console.lo
 
 ### conditional breakpoint && console.log
 条件断点结合console.log进行打印，可以不用再在源码中添加console.log
+
+### 直接在回调中使用`console.log`
+直接在回调中使用`console.log`的好处：
+* 减少输入
+* 在回调中的所有参数都会被打印出来
+```js
+[1,2,3].map(console.log)
+// 1 0 [1, 2, 3]
+// 2 1 [1, 2, 3]
+// 3 2 [1, 2, 3]
+```
+
+### console默认就被async包裹
+![](https://raw.githubusercontent.com/wangkaiwd/drawing-bed/master/20200309005033.png)
+
+### 重放`xhr`
+* replay xhr: 重新发起一个`xhr`请求
+
+通过结合项目和`ts-axios`来重新尝试[`network`面板](https://juejin.im/book/5c526902e51d4543805ef35e/section/5c5269c5e51d452a167bf5bc)的相关功能
+
+### 通过`h`键来隐藏元素
+
+### 在元素面板中展开所有子节点
+![](https://raw.githubusercontent.com/wangkaiwd/drawing-bed/master/20200309002709000.png)
+
+### DOM 断点
+暂时没有弄明白有什么作用
