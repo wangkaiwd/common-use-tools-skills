@@ -55,10 +55,11 @@ console.log()打印的是对象的引用，所以在对象更改后，console.lo
 
 ### 重放`xhr`
 * replay xhr: 重新发起一个`xhr`请求
-
-通过结合项目和`ts-axios`来重新尝试[`network`面板](https://juejin.im/book/5c526902e51d4543805ef35e/section/5c5269c5e51d452a167bf5bc)的相关功能
+### xhr/fetch 断点
+![](https://raw.githubusercontent.com/wangkaiwd/drawing-bed/master/20200312231726.png)
 
 ### 通过`h`键来隐藏元素
+比较快速的`visibility:hidden`操作
 
 ### 在元素面板中展开所有子节点
 ![](https://raw.githubusercontent.com/wangkaiwd/drawing-bed/master/20200309002709000.png)
