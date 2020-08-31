@@ -11,3 +11,15 @@
 3. Use a hyphen to exclude words
 4. Use a colon to search specific sites
 5. Find a page that links to another page
+6. Use the asterisk wildcard
+7. Find sites that are similar to other sites
+8. Use Google search to do math
+9. Search a range of numbers
+10. Find a specific file
+11. Money and unit conversions
+    ```text
+    miles to km: 10 miles to km
+    
+    hours to seconds: 1h to second
+    ```
+12. Search result in specify time range
