@@ -10,12 +10,24 @@
 2. Use quotes
 3. Use a hyphen to exclude words
 4. Use a colon to search specific sites
+    ```text
+    site: 前端 面试 site:zhihu.com
+    ```
 5. Find a page that links to another page
 6. Use the asterisk wildcard
+    ```text
+    * : Refactor Improve * code filetype:pdf
+    ```
 7. Find sites that are similar to other sites
 8. Use Google search to do math
+    ```text
+    in search bar: 20+10=
+    ```
 9. Search a range of numbers
 10. Find a specific file
+    ```text
+    filetype: Refactor Improve * code filetype:pdf
+    ```
 11. Money and unit conversions
     ```text
     miles to km: 10 miles to km
@@ -23,3 +35,6 @@
     hours to seconds: 1h to second
     ```
 12. Search result in specify time range
+    ```text
+    site: 前端 面试 site:zhihu.com after:2020-01-01
+    ```
