@@ -5,4 +5,4 @@
 * [GitHub](https://github.com/wangkaiwd/WebStorm-Skills/blob/master/GitHubSearch.md)
 * [Google](https://github.com/wangkaiwd/WebStorm-Skills/blob/master/GoogleSearch.md)
 * [ChromeDevTools](https://github.com/wangkaiwd/common-use-tools-skills/blob/master/ChromeDevTools.md)
-* [工具集]()
+* [tool collections](https://github.com/wangkaiwd/common-use-tools-skills/blob/master/ToolsCollection.md)
